@@ -83,8 +83,10 @@ button:hover {
 }
 #dashboard-screen{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    /* width: 250px;
+    height: 250px; */
+    width: 90%;
+    height: 450px;
     transition: 400ms;
     background-color: rgb(53, 253, 220);
     padding: 50px;
@@ -95,12 +97,25 @@ button:hover {
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.dashboard-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    background-color: #12f343;
+    left: 0px;
+}
 #logout-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    position: absolute;
+    width: 50px;
     background-color: #f39c12;
+    top: 30px;
+    right: 30px;
 }
 
 #logout-btn:hover {
