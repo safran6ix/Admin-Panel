@@ -9,12 +9,13 @@ body {
 }
 
 .admin-container {
-    width: 300px;
-    background-color: #fa4a4a00;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    background-color: rgba(68, 229, 250, 0);
 }
 
 h1 {
@@ -61,15 +62,6 @@ button:hover {
     color: #28a745;
     font-size: 18px;
 }
-.admin-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background-color: rgba(68, 229, 250, 0);
-}
 .admin-container h1{
     position: absolute;
     top: 10px;
@@ -78,7 +70,7 @@ button:hover {
 }
 #login-screen{
     position: absolute;
-    width: 300px;
+    width: 250px;
     height: 200px;
     background-color: #fff;
     padding: 50px;
@@ -87,10 +79,11 @@ button:hover {
 }
 #login-screen h2{
     margin-top: 5px;
+    color: black;
 }
 #dashboard-screen{
     position: absolute;
-    width: 300px;
+    width: 250px;
     height: 250px;
     transition: 400ms;
     background-color: rgb(53, 253, 220);
@@ -103,6 +96,9 @@ button:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #logout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
     background-color: #f39c12;
 }
