@@ -75,3 +75,15 @@ loginBtn.addEventListener("click", () => {
 });
 
 logoutBtn.addEventListener("click", logout);
+
+
+//USER SCREEN INTERFACE
+
+const userscreen = document.querySelector(".user-screen");
+
+function open_screen(){
+    userscreen.style.display = "block";
+}
+function close_screen(){
+    userscreen.style.display = "none";
+}
