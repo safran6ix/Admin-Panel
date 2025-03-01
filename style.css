@@ -139,7 +139,9 @@ button:hover {
     width: 100%;
     height: 600px;
     background-color: #eee;
-    display: none;
+    /* display: none; */
+    transform: scale(0.0);
+    transition: 400ms;
 }
 .close-btn{
     display: flex;
