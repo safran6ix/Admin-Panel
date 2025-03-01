@@ -102,10 +102,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 350px;
-    height: 150px;
+    width: 100%;
+    height: 50px;
     background-color: #12f343;
     left: 0px;
+    border-radius: 50px;
 }
 #logout-btn {
     display: flex;
