@@ -3,7 +3,27 @@
     .user-screen {
         width: 120%;
         height: 600px;
-        background-color: #ff6363;
+        background-color: #ffffff;
+    }
+    
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(128, 128, 128, 0.641);
+        box-shadow: 0px 15px 35px rgba(128, 128, 128, 0.641);
+        top: 20px;
+        left: 20px;
+        border-radius: 15px;
+    }
+
+    .user-img {
+        position: absolute;
+        width: 120px;
     }
 
 }
