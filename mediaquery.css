@@ -1,0 +1,9 @@
+@media screen and (max-width:460px) {
+    
+    .user-screen {
+        width: 120%;
+        height: 600px;
+        background-color: #ff6363;
+    }
+
+}
