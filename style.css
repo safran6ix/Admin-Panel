@@ -161,7 +161,10 @@ button:hover {
     border-radius: 5px;
     background-color: #000000;
 }
- 
+.close-btn:hover{
+    background-color: #000000b9;
+} 
+
 .title{
     display: flex;
     justify-content: center;
@@ -182,12 +185,13 @@ button:hover {
     position: absolute;
     top: 150px;
     width: 90%;
-    height: 270px;
+    height: 640px;
     background-color: #000000;
     border-radius: 5px;
 }
 .image01{
     position: absolute;
+    width: 350px;
     left: 20px;
     background-color: #000000;
 }
