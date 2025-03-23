@@ -34,7 +34,7 @@ h1 {
 }
 
 .hidden {
-    display: none;
+    display: non;
 }
 
 input[type="number"],
@@ -144,4 +144,5 @@ button:hover {
     width: 100px;
     height: 40px;
     top: 100px;
+    left: 50%;
 }
