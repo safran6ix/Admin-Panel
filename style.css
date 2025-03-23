@@ -97,14 +97,14 @@ button:hover {
 }
 #dashboard-screen{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 67%;
+    height: 100%;
     /* width: 90%;
     height: 450px; */
     transition: 400ms;
     background-color: rgb(53, 253, 220);
     padding: 50px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 #user-name{
     font-size: 20px;
@@ -143,4 +143,5 @@ button:hover {
     position: absolute;
     width: 100px;
     height: 40px;
+    top: 100px;
 }
