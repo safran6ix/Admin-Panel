@@ -21,4 +21,7 @@
     .icons{
         display: none;
     }
+    .side-nav-btn{
+        display: block;
+    }
 }

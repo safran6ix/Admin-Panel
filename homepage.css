@@ -39,3 +39,21 @@ body{
     color: white;
     border: none;
 }
+.side-nav-btn{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #9f616100;
+    color: white;
+    top: 12px;
+    right: 28px;
+    border: none;
+    display: none;
+}
+.side-nav-btn i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6px;
+}
