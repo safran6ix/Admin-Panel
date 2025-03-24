@@ -75,3 +75,15 @@ loginBtn.addEventListener("click", () => {
 });
 
 logoutBtn.addEventListener("click", logout);
+
+
+
+
+
+//HOMEPAGE_HTML_SCRIPT|-
+
+const body_cont = document.getElementById("body");
+
+function light_screen(){
+    body_cont.style.background = "white";
+}

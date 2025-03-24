@@ -16,4 +16,9 @@
         margin: 15px 0px;
         background-color: #28a746;
     }
+
+    /*HOMEPAGE_HTML*/
+    .icons{
+        display: none;
+    }
 }
