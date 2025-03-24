@@ -57,3 +57,19 @@ body{
     align-items: center;
     margin-top: -6px;
 }
+.side-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 1200px;
+    /* background-color: aliceblue; */
+    -webkit-backdrop-filter: blur(100%);
+    backdrop-filter: blur(50px);
+    top: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    left: -800px;
+    transition: 400ms;
+}
