@@ -12,14 +12,3 @@ function show_navbar() {
 function none_show_navbar() {
     sidenavbar.style.left = "-800px";
 }
-
-function lightON(){
-    body.style.background = "#e9e9e9";
-    title.style.color = "black";
-    icons.style.color = "black";
-}
-function lightOFF(){
-    body.style.background = "black";
-    title.style.color = "white";
-    icons.style.color = "white";
-}
