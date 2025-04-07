@@ -24,4 +24,15 @@
     .side-nav-btn{
         display: block;
     }
+    .sub-title{
+        font-size: 16px;
+    }
+    .sub-cont-01{
+        display: grid;
+        height: 700px;
+    }
+    .sub-cont-01 div{
+        width: 350px;
+    }
+
 }
