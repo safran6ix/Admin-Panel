@@ -163,3 +163,11 @@ body{
     font-weight: 100;
     font-size: 25px;
 }
+.footer h5{
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}  
