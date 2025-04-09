@@ -159,4 +159,7 @@ body{
 .footer h1{
     position: relative;
     top: -100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
 }
