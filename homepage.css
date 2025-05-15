@@ -39,6 +39,9 @@ body{
     color: white;
     border: none;
 }
+.icons a{
+    color: white;
+}
 .side-nav-btn{
     position: absolute;
     width: 35px;
