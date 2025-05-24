@@ -49,6 +49,7 @@ input[type="password"] {
     text-align: center;
     font-size: 15px;
     outline: none;
+    color: white;
 }
 
 button {
@@ -63,7 +64,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #1f1f1f;
 }
 
 .error {
