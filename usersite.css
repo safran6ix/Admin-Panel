@@ -24,3 +24,18 @@ body{
     font-size: 20px;
     color: #ffffff;
 }
+.sub-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #eeeeee5f;
+    border-radius: 100%;
+    top: 100px;
+    left: 100px;
+}
+.sub-cont img{
+    width: 50px;
+}
