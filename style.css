@@ -1,4 +1,8 @@
 *{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     transition: 400ms;
 }
 
@@ -84,7 +88,7 @@ button:hover {
     -webkit-backdrop-filter: blur(100%);
     backdrop-filter: blur(30px);
     /* background-color: #00ffbb; */
-    background: linear-gradient(145deg, #000000, #54004e);
+    background: linear-gradient(145deg, #d3f8b3, #038faf);
     /* border: 1px solid #ffffff59; */
     box-shadow: 0px 0px 5px #9797974b;
     padding: 50px;
@@ -93,7 +97,7 @@ button:hover {
 }
 #login-screen h2{
     margin-top: 5px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.593);
     font-size: 35px;
     font-family: sans-serif;
@@ -107,12 +111,13 @@ button:hover {
     height: 450px; */
     transition: 400ms;
     /* background-color: rgb(53, 253, 220); */
+    background: linear-gradient(145deg, #d3f8b3, #038faf);
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(10px);
     border: 1px solid grey;
     padding: 50px;
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #user-name{
     font-size: 20px;
