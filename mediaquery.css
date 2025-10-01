@@ -1,5 +1,9 @@
 @media screen and (max-width:650px) {
     * {
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
         transition: 400ms;
     }
     

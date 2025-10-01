@@ -99,8 +99,8 @@ button:hover {
     margin-top: 5px;
     color: rgb(0, 0, 0);
     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.593);
-    font-size: 35px;
-    font-family: sans-serif;
+    font-size: 40px;
+    /* font-family: sans-serif; */
     font-weight: 900;
 }
 #dashboard-screen{
