@@ -48,12 +48,15 @@ input[type="password"] {
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
     background-color: #ffffff00;
     text-align: center;
     font-size: 15px;
     outline: none;
-    color: white;
+    color: #222;
 }
 
 button {
@@ -88,7 +91,7 @@ button:hover {
     -webkit-backdrop-filter: blur(100%);
     backdrop-filter: blur(30px);
     /* background-color: #00ffbb; */
-    background: linear-gradient(145deg, #d3f8b3, #038faf);
+    background: linear-gradient(145deg, #ffffff, #ffffff);
     /* border: 1px solid #ffffff59; */
     box-shadow: 0px 0px 5px #9797974b;
     padding: 50px;
@@ -122,7 +125,6 @@ button:hover {
 #user-name{
     font-size: 20px;
     font-weight: 600;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 #logout-btn {
     display: flex;
